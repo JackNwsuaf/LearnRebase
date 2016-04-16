@@ -1,6 +1,6 @@
 #!/bin/bash
 git init
-echo "*.sh" >> .gitnore
+echo "*.sh" >> .gitignore
 for i in {A..F}; do
   #statements
   echo $i >> $i
